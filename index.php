@@ -17,15 +17,21 @@
 
         <div class="body">
             <div class="wrapper">
-                <form action="">
+                <form action="./login.php"
+                method="POST">
                   <h1>Login</h1>
                   <div class="input-box">
-                      <input type="text" placeholder="Username" required>
+                      <input name="Username" type="text" placeholder="Username" required>
                       <i class='bx bxs-user'></i>
                   </div>
       
                   <div class="input-box">
-                      <input type="password" placeholder="password" required>
+                      <input name="password" type="password" placeholder="Password" required>
+                      <i class='bx bxs-lock-alt'></i>
+                  </div>
+
+                  <div class="input-box">
+                      <input name="Cpassword" type="password" placeholder="Retry password" required>
                       <i class='bx bxs-lock-alt'></i>
                   </div>
       
